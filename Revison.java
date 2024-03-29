@@ -1,17 +1,18 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Stack;
 
 public class Revison {
     public static void main(String[] args) {
-        HashSet<Integer>set=new HashSet<>();
-        set.add(1);
-        set.add(2);
-        set.add(2);
-        set.add(4);
+       HashMap<String,Integer>map=new HashMap<>();
+       map.put("Adnan",19);
+       map.put("Taj",21);
 
-        set.remove(1);
-       System.out.println( set.contains(2));
-        System.out.println(set);
+       System.out.println(map.get("Adnan"));
+       System.out.println(map.getOrDefault("CA", 20));
+       map.remove("Adnan");
+       System.out.println(map);
+
     }
 }
