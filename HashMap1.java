@@ -9,17 +9,17 @@ public class HashMap1 {
         map.put("Bike",20);
 
     // get(key)
-        System.out.println(map.get("Bike"));
-        System.out.println(map.get("Car"));
+        // System.out.println(map.get("Bike"));
+        // System.out.println(map.get("Car"));
 
     // GetOrDefault
-        System.out.println(map.getOrDefault("cat", 10));
+        // System.out.println(map.getOrDefault("cat", 10));
     
     // Map
         // map.remove("Car");
 
     // Contains Key
-        System.out.println(map.containsKey("Car"));
+        // System.out.println(map.containsKey("Car"));
 
     // Clear-->Delete All the Element
         // map.clear();
@@ -30,11 +30,11 @@ public class HashMap1 {
             System.out.println(i+":"+map.get(i));
         }
     // To get Value-->
-         for(int i:map.values()){
-            System.out.println(i);
-         }
+        //  for(int i:map.values()){
+        //     System.out.println(i);
+        //  }
         
-         System.out.println(map.size());
+        //  System.out.println(map.size());
        System.out.println(map);
 
 

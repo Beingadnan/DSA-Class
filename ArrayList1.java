@@ -1,5 +1,7 @@
 import java.util.*;
 
+import java.util.ArrayList;
+
 public class ArrayList1 {
     public static void main(String[] args) {
         ArrayList<Integer>list=new ArrayList<>();
@@ -8,7 +10,7 @@ public class ArrayList1 {
         list.add(6);
         list.add(7);
     // Set --> Set the Element
-        list.set(1,10);
+        // list.set(1,10);
     
     // Clear--> Delete All the Element
         // list.clear();
@@ -17,10 +19,10 @@ public class ArrayList1 {
         // list.remove(1);
     
     // Inserting one Particular Index
-        list.add(1,8);
+        // list.add(1,8);
     
     // Get
-        System.out.println(list.get(3));
+        // System.out.println(list.get(1));
         
         System.out.println(list);
     }

@@ -9,14 +9,15 @@ public class HashSet1 {
         set.add(3);
         set.add(1);
         set.add(3);
+        set.add(2);
     
     // Remove
         // set.remove(1);
 
     // Contains
-        System.out.println(set.contains(8));
+        System.out.println(set.contains(1));
 
-    System.out.println(set.size());
+    // System.out.println(set.size());
 
     for(int i:set){
         System.out.println(i);
