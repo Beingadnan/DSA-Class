@@ -70,10 +70,10 @@ public class RecursionGauravsir {
         return a+b;
     }
     public static void main(String[] args) {
-        // Incresing(10);
+        Incresing(10);
         // Incresing1(1);
         // Decreasing(10);
-        check(1, 10);
+        // check(1, 10);
         // System.out.println(Fibonacci(3));
         // Sum(1, 10, 0);
         // System.out.println(SUM(1));

@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class MergeSort {
+
     public static void Conquer(int[] arr, int sti, int mid, int edi) {
         int f = sti;
         int s = mid + 1;
@@ -27,12 +28,6 @@ public class MergeSort {
             i++;
             s++;
         }
-        int j = sti;
-        for (int val : merge) {
-            arr[j] = val;
-            j++;
-        }
-        System.out.println(Arrays.toString(arr));
     }
 
     public static void BreakDown(int[] arr, int sti, int edi) {
