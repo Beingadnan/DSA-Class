@@ -8,13 +8,14 @@ public class Queue1 {
         // Add Elements--> add(), offer
         queue.add(5);
         queue.offer(7);  // Add another method
+        
 
         // Peek-->Batata hai element first element
         System.out.println(queue.peek());
-        System.out.println(queue.element());
+        System.out.println(queue.element());  
 
     // Clear
-        // queue.clear();
+        queue.clear();
 
     // Remove
         queue.poll();
